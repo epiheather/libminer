@@ -34,4 +34,4 @@ usethis::use_devtools()
 usethis::use_r("lib-summary") # add a function name (R script name) with out an extension
 lib_summary()
 
-devtools::load_all()
+# devtools::load_all()
