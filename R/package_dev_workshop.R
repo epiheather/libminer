@@ -20,5 +20,18 @@ usethis::use_git_config(
 # gitcreds::gitcreds_set()
 # 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
 
-# Check the PAT
 usethis::git_sitrep()
+
+usethis::use_git()
+
+# Opens up `.Rprofile`
+usethis::use_devtools()
+
+# require() returns TRUE/FALSE
+# library()
+
+# Add your first function in the package
+usethis::use_r("lib-summary") # add a function name (R script name) with out an extension
+lib_summary()
+
+devtools::load_all()
