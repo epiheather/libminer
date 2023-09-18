@@ -3,7 +3,7 @@
 #' Provides a brief summary of the package libraries on
 #' your machine.
 #'
-#' @param sizes A logical value indicating whether to generate the sum.
+#' @param sizes A logical value indicating whether to calculate sizes.
 #'
 #' @return A `data.frame` containing the count of packages in
 #'    each of the user's libraries. If `sizes = TRUE`, a column of library
